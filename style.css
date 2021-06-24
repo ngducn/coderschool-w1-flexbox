@@ -1,0 +1,250 @@
+/* reverse the order of the challenges */
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Applies border box sizing to the root element */
+:root {
+	box-sizing: border-box;
+}
+
+/* Tells all other elements and pseudo-element to inherit their box sizing */
+*,
+::before,
+::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	padding: 30px 20vw;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.abs {
+    position: absolute;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 12px;
+    height: 14px;
+    width: 14px;
+}
+
+section {
+    margin: 2vw;
+    border: 2px solid gray;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    width: 58vw;
+    height: 50vh;
+}
+
+header {
+    background-color: gray;
+    display: flex;
+    height: 35px;
+}
+
+/* Challenge 1 */
+.challenge1 .container {
+    color: white;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+}
+
+.mr-5 {
+	margin-right: 5px;
+}
+
+.box {
+    height: 10vw;
+    width: 10vw;
+}
+
+/* Challenge 2 */
+
+.challenge2 .container {
+    color: white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.middle {
+    align-self: center;
+}
+
+.end {
+    align-self: flex-end;
+}
+
+/* Challenge 3 */
+
+.challenge3 .container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.outer {
+    position: relative;
+	width: 20vw;
+	height: 20vw;
+}
+
+.inner {
+    position: absolute;
+	top: 60px;
+	left: 60px;
+}
+
+
+/* Challenge 4 */
+.challenge4 .container {
+    color: white;
+	position: relative;
+}
+.challenge4 .gray {
+    background-color:#3b3a39;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+
+/* Challenge 5 */
+.challenge5 .container {
+    color: white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Challenge 6 */
+.challenge6 .container {
+    color: white;
+    background-color: white;
+    position: relative;
+	height: calc(100% - 30px);
+}
+
+.wide {
+    background-color:#3b3a39;
+    position: absolute;
+	bottom: 0;
+	right: 0;
+    width: 500px;
+	height: 250px;
+}
+
+.challenge6 .box2 {
+    position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.challenge6 .box3 {
+    position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* Challenge 7 */
+.challenge7 .container {
+    color: white;
+    background-color: white;
+    position: relative;
+}
+
+.challenge7 .outer {
+    background-color:#3b3a39;
+    position: absolute;
+    width: 20vw;
+	height: 20vw;
+}
+
+.challenge7 .box2 {
+    position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/* Challenge 8 */
+.challenge8 .container {
+    color: white;
+    background-color: white;
+    position: relative;
+}
+
+.challenge8 .outer {
+    background-color:#3b3a39;
+    position: absolute;
+    width: 20vw;
+	height: 20vw;
+}
+
+.challenge8 .box2 {
+    position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* Challenge 9 */
+.challenge9 .container {
+    color: white;
+    background-color: white;
+    position: relative;
+}
+
+.challenge9 .long {
+    background-color:#3b3a39;
+    position: absolute;
+    width: 20vw;
+	height: 30vw;
+}
+
+.challenge9 .box2 {
+    position: absolute;
+	top: 0;
+	right: 5vw;
+}
+
+.challenge9 .box3 {
+    position: absolute;
+	bottom: 0;
+	right: 5vw;
+}
