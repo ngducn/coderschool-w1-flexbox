@@ -56,7 +56,7 @@ body {
 
 section {
     margin: 2vw;
-    border: 2px solid gray;
+    border: 5px solid gray;
     border-radius: 15px 15px 0 0;
     overflow: hidden;
     width: 58vw;
@@ -126,8 +126,8 @@ header {
 
 .inner {
     position: absolute;
-	top: 60px;
-	left: 60px;
+	top: 5vw;
+	left: 5vw;
 }
 
 
@@ -147,7 +147,7 @@ header {
 /* Challenge 5 */
 .challenge5 .container {
     color: white;
-    background-color: white;
+    background-color: white;  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -247,4 +247,161 @@ header {
     position: absolute;
 	bottom: 0;
 	right: 5vw;
+}
+
+/* Challenge 10 */
+.challenge10 .container {
+    color: white;
+	margin: 40px 80px;
+}
+.challenge10 .box1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 150px;
+	position: relative;
+}
+.challenge10 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.dgray {
+    background-color:#3b3a39;
+}
+
+/* Challenge 11 */
+.challenge11 .container {
+    color: white;
+}
+
+.challenge11 .box1 {
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+} 
+
+.challenge11 .box2 {
+    position: absolute;
+    width: 15vw;
+    height: 25vh;
+    bottom:0;
+    right: 0;
+} 
+
+.challenge11 .box3 {
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    bottom: 5px;
+    right: 5px;
+} 
+
+/* Challenge 12 */
+.challenge12 .container {
+    color: white;
+}
+
+.challenge12 .box1 {
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+} 
+
+.challenge12 .box2 {
+    position: absolute;
+    width: 15vw;
+    height: 22vh;
+    top: 200px;
+    left: 100px;
+} 
+
+.challenge12 .box3 {
+    position: absolute;
+    width: 12vw;
+    height: 12vh;
+    top: 350px;
+    left: 50px;
+} 
+
+/* Challenge 13 */
+.challenge13 .container {
+    color: white;
+	position: relative;
+}
+
+.challenge13 .box .inner{
+	position: absolute;
+	top: 5vh;
+	left: 5vh;
+}
+
+/* Challenge 14 */
+.challenge14 .container {
+    color: white;
+    background-color: white;
+    position: relative;
+}
+
+.challenge14 .outer {
+    background-color:#3b3a39;
+    position: absolute;
+    width: 20vw;
+	height: 20vw;
+    right:0;
+}
+
+.challenge14 .box2 {
+    position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+/* Challenge 15 */
+.challenge15 .container {
+    color: white;
+    background-color: white;
+    position: relative;
+}
+
+.challenge15 .outerbox {
+    background-color:white;
+    position: relative;
+    width: 50vw;
+	height: 30vw;
+}
+
+.big {
+    width: 250px;
+    height: 250px;
+}
+
+.small {
+    width: 120px;
+    height: 120px;
+}
+
+.challenge15 .box1 {
+    position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.challenge15 .box2 {
+    position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.challenge15 .box3 {
+    position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.challenge15 .box4 {
+    position: absolute;
+	bottom: 0;
+	right: 0;
 }
